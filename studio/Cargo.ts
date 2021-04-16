@@ -4,3 +4,16 @@
 // TODO: 
 // * Code the Astronaut, Cargo, and Rocket classes in new files.
 // * Import the three classes into this file.
+
+export class Cargo {
+   massKg : number;
+   material  : string;
+
+   constructor(massKg: number, material   : string) {
+      this.massKg = massKg;
+      this.material  = material ;
+   }
+
+   interface Payload {
+        massKg: number;
+   }
